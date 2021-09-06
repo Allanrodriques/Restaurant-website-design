@@ -1,0 +1,126 @@
+.topnav{
+	display: block;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  margin-top: -10px;
+  margin-left: -4px;
+  margin-right: -4px;
+}
+
+li {
+  float: left;
+  width:16%;
+  font-size: 19px;
+
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+ a:hover {
+	background-color:#736F6E;
+	color: white;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+
+.box{
+		background:black;
+		width:200px;
+		height: 500px;
+}
+		 
+.line1, .line{ 
+	color:white;
+	border-bottom:1px dashed gold;
+	width:70%;
+	text-align: center;
+	font-size: 30px; 
+}
+
+
+
+div.text{
+	color: #fff;
+		
+}
+
+div.bgimage img{
+	position: relative;
+	width: 100%;
+}
+
+p.para1 {
+	position: absolute;
+	top: 100px;
+	left: 10px;
+	font-size: 30px;
+	padding: 30px;
+	background-color: black;
+	opacity: 0.8;
+	border-bottom: 2px white;
+	font-weight: 700;
+}
+
+div.para2 {
+	position: absolute;
+	top: 350px;
+	left: 20px;
+	font-size: 40;
+	padding: 30px;
+	background-color: black;
+	opacity: 0.8;
+	font-weight: 550;
+}
+
+form {
+	position: absolute;
+	right: 100px;
+	top: 150px;
+	padding: 30px;
+	background-color: black;
+	opacity: 0.8;
+	font-weight: 600;
+}
+
+div.help {
+	position:absolute;
+	top: 530px;
+	left: 20px;
+	padding: 15px;
+	background-color: black;
+	opacity: 0.8;
+}
+
+
+
+div.reservationbox {
+  position:absolute;
+	top: 700px;
+	left: 20px;
+	padding: 25px;
+	background-color: black;
+	opacity: 0.95;
+}
+
+div.reservation {
+	
+
+	font-size: 40px;
+
+}
